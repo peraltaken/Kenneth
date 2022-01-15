@@ -1,0 +1,114 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url(map.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.form-box
+{
+    width: 500px;
+    background: rgba(0,0,0,0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.input-box
+{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.input-box input
+{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+::placeholder
+{
+    color: #ccc;
+}
+
+.fa
+{
+    margin-right: 10px;
+}
+
+.eye
+{
+    position: absolute;
+}
+
+#hide1
+{
+    display: none;
+}
+
+.login-btn
+{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solod #fff;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.main-nav
+{
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 6%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: harrington;
+	font-size: 20px;
+}
+
+.main-nav li.active a
+{
+	border: 3px solid white ;
+}

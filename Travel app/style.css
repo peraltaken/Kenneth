@@ -1,0 +1,208 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(pic.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-image
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(pic1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-img
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(pic2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto; 
+	float: left;
+}
+
+.main-nav
+{
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav .active1
+{
+	color: white;
+	position: absolute;
+	top: -900%;
+	left: 300%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav li.active1 a
+{
+	border: 3px solid white ;
+}
+
+.main-nav .active2
+{
+	color: white;
+	position: absolute;
+	top: -900%;
+	left: 265%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav li.active2 a
+{
+	border: 3px solid white ;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: harrington;
+	font-size: 20px;
+}
+
+.main-nav li.active a
+{
+	border: 3px solid white ;
+}
+
+.home1
+{
+	color: blue;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 60px;
+}
+
+.home
+{
+	color: mediumblue;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 60px;
+}
+
+.sharm
+{
+	color: dodgerblue;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 40px;
+}
+
+.list
+{
+	color: deepskyblue;
+	text-align: center;
+	font-family: harrington;
+	font-size: 40px;
+	
+}
+
+.list1
+{
+	color: dodgerblue;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+    transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 40px;
+	
+}
+
+.dress
+{
+	margin: 10px 50px;
+}
+	
+.dress img
+{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.dress img:hover
+{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.info 
+{
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	font-family:harrington ;
+}
+
+.cute 
+{
+	font-size: 40px;
+	text-align: center;
+	color: limegreen;
+	font-family: harrington;
+}

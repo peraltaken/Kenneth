@@ -1,0 +1,107 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url(blackflower.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto; 
+	float: left;
+}
+
+.main-nav
+{
+	color: white;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: harrington;
+	font-size: 20px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white ;
+}
+
+
+.home
+{
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 50px;
+}
+
+.wadahek
+{
+	color: white;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: harrington;
+	font-size: 40px;
+}
+
+.list
+{
+	
+	color: white;
+	text-align: left;
+	font-family: harrington;
+	font-size: 40px;
+	
+}
+
+
+.dress
+{
+	margin: 10px 50px;
+}
+	
+.dress img
+{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.dress img:hover
+{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
