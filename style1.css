@@ -1,0 +1,311 @@
+*
+            {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body
+            {
+                background-image: url(pic.jpg);
+                background-position: center;
+                background-size: cover;
+                font-family: sans-serif;
+                margin-top: 40px;
+            }
+            
+            .regform
+            {
+                width: 800px;
+                background-color: rgb(0,0,0,0.6);
+                margin: auto;
+                color: #FFFFFF;
+                padding: 10px 0px 10px 0px;
+                text-align: center;
+                border-radius: 15px 15px 0px 0px;
+            }
+            
+            .main
+            {
+                background-color: rgb(0,0,0,0.5);
+                width: 800px;
+                margin: auto;
+            }
+            
+            form
+            {
+                padding: 10px;
+            }
+            
+            #name
+            {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .name
+            {
+                margin-left: 25px;
+                margin-top: 30px;
+                width: 125px;
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            
+            .username
+            {
+                position: relative;
+                left: 150px;
+                top: -44px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+            }
+            
+            .password
+            {
+                position: relative;
+                left: 150px;
+                top: -37px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .password2
+            {
+                position: relative;
+                left: 450px;
+                top: -80px;
+                line-height: 40px;
+                border-radius: 6px;
+                padding: 0 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .userlabel
+            {
+                position: relative;
+                color: #E5E5E5;
+                text-transform: capitalize;
+                font-size: 14px;
+                left: 230px;
+                top: -44px;
+            }
+            
+            .passlabel
+            {
+                position: relative;
+                color: #E5E5E5;
+                text-transform: capitalize;
+                font-size: 14px;
+                left: 230px;
+                top: -35px;
+            }
+            
+            .passlabel2
+            {
+                position: relative;
+                color: #E5E5E5;
+                text-transform: capitalize;
+                font-size: 14px;
+                left: 550px;
+                top: -97px;
+            }
+            
+            .company
+            {
+                position: relative;
+                left: 150px;
+                top: -25px;
+                line-height: 40px;
+                width: 480px;
+                border-radius: 6px;
+                padding: 0px 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .email
+            {
+                position: relative;
+                left: 150px;
+                top: -30px;
+                line-height: 40px;
+                width: 480px;
+                border-radius: 6px;
+                padding: 0px 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .Code
+            {
+                position: relative;
+                left: 150px;
+                top: -30px;
+                line-height: 40px;
+                width: 95px;
+                border-radius: 6px;
+                padding: 0px 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .number
+            {
+                position: relative;
+                left: 150px;
+                top: -30px;
+                line-height: 40px;
+                width: 280px;
+                border-radius: 6px;
+                padding: 0px 22px;
+                font-size: 16px;
+                color: #555;
+            }
+            
+            .area-code
+            {
+                position: relative;
+                color: #E5E5E5;
+                text-transform: capitalize;
+                font-size: 16px;
+                left: 60px;
+                top: 10px;
+            }
+            
+            .phone-number
+            {
+                position: relative;
+                color: #E5E5E5;
+                text-transform: capitalize;
+                font-size: 16px;
+                left: -60px;
+                top: 10px;
+            }
+            
+            .option
+            {
+                position: relative;
+                left: 150px;
+                top: -30px;
+                line-height: 40px;
+                width: 280px;
+                height: 40px;
+                border-radius: 6px;
+                padding: 0px 22px;
+                font-size: 16px;
+                color: #555;
+                outline: none;
+                overflow: hidden;
+            }
+            
+            .option option
+            {
+                font-size: 20px;
+            }
+            
+            #coustomer
+            {
+                margin-left: 25px;
+                color: white;
+                font-size: 18px;
+            }
+
+            #sex
+            {
+                color: white;
+                font-size: 20px;
+                padding-right: 70px;
+                margin-left: 25px;
+                margin-top: 15px;
+            }
+
+            .radio
+            {
+                position: relative;
+                left: 120px;
+                top: -35px;
+                display: inline-block;
+                padding-right: 140px;
+                font-size: 20px;
+                margin-left: 25px;
+                margin-top: 15px;
+                color: white;
+                padding: 0px;
+            }
+            
+            .radio input
+            {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                cursor: pointer;
+                outline: black;
+            }
+            
+            button
+            {
+                position: relative;
+                left: 250px;
+                top: -3px;
+                background-color: #3BAF9F;
+                display: block;
+                margin: 20px 0px 20px;
+                text-align: center;
+                border-radius: 12px;
+                border: 2px solid #366473;
+                padding: 14px 110px;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                transition: 0.25px;
+            }
+            
+            button:hover
+            {
+                background-color: #5390F5;
+            }
+
+.main-nav
+{
+	color: white;
+	position: absolute;
+	top: 5%;
+	left: 6%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+	font-family: Castellar;
+	font-size: 50px;
+}
+
+.main-nav li.active1 a
+{
+	border: 3px solid white ;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: harrington;
+	font-size: 20px;
+}
+
+.main-nav li.active a
+{
+	border: 3px solid white ;
+}
